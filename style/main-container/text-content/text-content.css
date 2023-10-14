@@ -10,8 +10,6 @@
         grid-column-start: 2;
         width: auto;
         grid-row-start: 1;
-        grid-row-end: 3;
-
-
+        grid-row-end: 4;
     }
 }
