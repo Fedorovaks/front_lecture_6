@@ -1,0 +1,36 @@
+.form-search {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.form-search__button_transparent {
+    background: transparent;
+    position: relative;
+    right: 40px;
+}
+
+.fa-search {
+    color: var(--link-color);
+}
+
+.form-search__input_transparent {
+    border-radius: 200px;
+    width: 80px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid var(--link-color);
+}
+
+@media screen and (max-width:991px) {
+    .form-search {
+        margin: 10px;
+        width: 100%;
+        text-align: center;
+        order: 2;
+      justify-content: center;
+    }
+
+    .form-search__input_transparent {
+        width: 80%;
+    }
+}

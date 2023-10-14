@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>HTML: HyperText Markup Language | MDN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script src="https://use.fontawesome.com/065c67f465.js"></script>
+    <script defer src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/general.css">
+   
+</head>
+
+<body>
+    <div class="top-banner">
+        <div class="top-banner__text">Get real-time assistance with your coding queries. Try <a
+                class="top-banner__link link" href="#">AI Help</a> now!</div>
+    </div>
+    <header class="sticky-container">
+        <div class="head">
+            <div class="logo">
+                <a class="logo__link link" href="#">
+                    <img class="logo__img" src="image/logo.png">
+                </a>
+                <button class="fa fa-bars logo__btn"></button>
+            </div>
+            <ul class="menu list">
+                <li class="menu__item"><a class="menu__link link" href="#">References</a></li>
+                <li class="menu__item"><a class="menu__link link" href="#">Guides</a></li>
+                <li class="menu__item"><a class="menu__link link" href="#">Plus</a></li>
+                <li class="menu__item"><a class="menu__link link" href="#">Blog</a></li>
+                <li class="menu__item"><a class="menu__link link" href="#">Play</a></li>
+                <li class="menu__item"><a class="menu__link link" href="#">Al Help</a></li>
+            </ul>
+
+            <button class="head__custom-button button"><i class="fa fa-moon-o" aria-hidden="true"></i>Theme</button>
+            <form action="#" class="form-search">
+                <input type="search" class="form-search__input_transparent" name="q" placeholder=" ___" required=""
+                    value="">
+                <button type="submit" class="form-search__button_transparent button"><i class="fa fa-search"
+                        aria-hidden="true"></i></button>
+
+            </form>
+            <a class="head__auth-link link" href="#">Log in</a>
+            <input class="button-subscription" type="button" value="Sign up for free">
+        </div>
+
+        <div class="breadcrumbs-container">
+            <button class="btn-mobile">
+                <img class="btn-mobile__img" src="https://developer.mozilla.org/static/media/sidebar.18421c220ec0a5e690f1.svg">
+            </button>
+            <ul class="breadcrumbs list">
+                <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link link" href="#">References</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link link" href="#">HTML</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <aside class="list-content">
+            <ul class="navigation list">
+                <li class="navigation__item_strong"><a class="navigation__link link" href="#">HTML</a></li>
+                <li class="navigation__item_strong"><a class="navigation__link link" href="#">Tutorials</a></li>
+                <li class="navigation__item"><a class="navigation__link link" href="#">HTML basics</a></li>
+                <li class="navigation__item">
+                    <details class="navigation__item_close">
+                        <summary class="navigation__caption_close">Introduction to HTML</summary>
+                    </details>
+                </li>
+                <li class="navigation__item">
+                    <details class="navigation__item_close">
+                        <summary class="navigation__caption_close">Multimedia and embedding</summary>
+                    </details>
+                </li>
+                <li class="navigation__item">
+                    <details class="navigation__item_close">
+                        <summary class="navigation__caption_close">HTML tables</summary>
+                    </details>
+                </li>
+                <li class="navigation__item_strong">References</li>
+                <li class="navigation__item">
+                    <details class="navigation__item_close">
+                        <summary class="navigation__caption_close">HTML elements</summary>
+                    </details>
+                </li>
+                <li class="navigation__item">
+                    <details class="navigation__item_close">
+                        <summary class="navigation__caption_close">Global attributes</summary>
+                    </details>
+                </li>
+                <li class="navigation__item">
+                    <details class="navigation__item_close">
+                        <summary class="navigation__caption_close">Attributes</summary>
+                    </details>
+                </li>
+                <li class="navigation__item">
+                    <details class="navigation__item_close">
+                        <summary class="navigation__caption_close">&lt;input&gt;types</summary>
+                    </details>
+                </li>
+                <li class="navigation__item_strong">Guides</li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Content
+                        categories</a>
+                </li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Block-level
+                        elements</a>
+                </li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Inline elements</a>
+                </li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Quirks Mode and
+                        Standards
+                        Mode</a></li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Date and time
+                        formats
+                        used in HTML</a></li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Constraint
+                        validation</a>
+                </li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Microdata</a></li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Microformats</a>
+                </li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Viewport meta
+                        tag</a>
+                </li>
+                <li class="navigation__item_left-aligned"><a class="navigation__link link" href="#">Allowing
+                        cross-origin use
+                        of images and canvas</a></li>
+            </ul>
+        </aside>
+
+        <div class="text-content">
+            <div class="description">
+                <div class="description__caption">HTML: HyperText Markup Language</div>
+                <div class="description__item">
+                    HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning
+                    and
+                    structure of web content. Other technologies besides HTML are generally used to describe a web
+                    page's
+                    appearance/presentation (CSS) or functionality/behavior (JavaScript).
+                </div>
+                <div class="description__item">
+                    "Hypertext" refers to links that connect web pages to one another, either within a single website or
+                    between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet
+                    and
+                    linking it to pages created by other people, you become an active participant in the World Wide Web.
+                </div>
+                <div class="description__item">
+                    HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML
+                    markup
+                    includes special "elements" such as &lt;head&gt;, &lt;title&gt;, &lt;body&gt;, &lt;header&gt;,
+                    &lt;footer&gt;, &lt;article&gt;, &lt;section&gt;, &lt;p&gt;,
+                    &lt;div&gt;, &lt;span&gt;, &lt;img&gt;, &lt;aside&gt;, &lt;audio&gt;, &lt;canvas&gt;,
+                    &lt;datalist&gt;, &lt;details&gt;,
+                    &lt;embed&gt;, &lt;nav&gt;, &lt;search&gt;, voutput&gt;, vprogress&gt;,
+                    &lt;video&gt;, &lt;ul&gt;, &lt;ol&gt;, &lt;li&gt; and many others.
+                </div>
+                <div class="description__item">
+                    An HTML element is set off from other text in a document by "tags", which
+                    consist of the element name surrounded by "<" and ">" . The name of an element inside a tag is
+                        case-insensitive. That is, it can be written in uppercase, lowercase, or a mixture. For example,
+                        the &lt;title&gt; tag can be written as &lt;Title&gt;, &lt;TITLE&gt;, or in any other way.
+                        However, the convention and recommended practice is to write tags in lowercase. </div>
+                        <div class="description__item">
+                            The articles below can help you learn more about HTML.
+                        </div>
+                </div>
+                <div class="resources">
+                    <div class="resources__caption">Key resources</div>
+                    <div class="annotation">
+                        <h3 class="annotation__caption">HTML Introduction</h3>
+                        <div class="annotation__item">If you're new to web development, be sure to read our HTML Basics
+                            article to learn what HTML is and how to use it.</div>
+                        -------------------------------------------------------
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-content">
+                <ul class="nav-content__caption list"> In this article
+                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Key resources</a></li>
+                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Beginner's tutorials</a>
+                    </li>
+                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Advanced topics</a></li>
+                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Reference</a></li>
+                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Related topics</a></li>
+                </ul>
+            </div>
+    </main>
+
+    <footer class="footer-container">
+        <div class="footer-logo">
+            <a class="footer-logo__link link" href="#">
+                <img class="footer-logo__img" src="image/footer-logo.png">
+            </a>
+            <p class="footer-logo__text">Your blueprint for a better internet.</p>
+        </div>
+
+        <ul class="footer-menu list">
+            <li class="footer-menu__caption">MDN</li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">About</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Blog</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Careers</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Advertise with us</a></li>
+        </ul>
+
+        <ul class="footer-menu list">
+            <li class="footer-menu__caption">Support</li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Product help</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Report an issue</a></li>
+        </ul>
+
+        <ul class="footer-menu list">
+            <li class="footer-menu__caption">Our communities</li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Community</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Forum</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Chat</a></li>
+        </ul>
+
+        <ul class="footer-menu list">
+            <li class="footer-menu__caption">Developers</li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Web Technologies</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Learn Web Development</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Plus</a></li>
+            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Hacks Blog</a></li>
+        </ul>
+
+        <ul class="footer-about list">
+            <li class="footer-about__item"><a class="footer-about__link link" href="#"><img class="footer-about__img"
+                        src="image/about.png"></a></li>
+            <li class="footer-about__item"><a class="footer-about__link" href="#">Website Privacy Notice</a></li>
+            <li class="footer-about__item"><a class="footer-about__link" href="#">Cookies</a></li>
+            <li class="footer-about__item"><a class="footer-about__link" href="#">Legal</a></li>
+            <li class="footer-about__item"><a class="footer-about__link" href="#">Community Participation
+                    Guidelines</a>
+            </li>
+        </ul>
+
+        <div class="footer-copyright">
+            <p class="footer-copyright__text">Visit Mozilla Corporation’s not-for-profit parent, the <a
+                    class="footer-copyright__link" href="#">Mozilla Foundation</a>.
+                Portions of this content are ©1998–2023 by individual mozilla.org contributors. Content available under
+                a <a class="footer-copyright__link" href="#">Creative Commons license.</a></p>
+        </div>
+
+    </footer>
+    <div class="popup" id="popup">
+    
+    </div>
+</body>
+
+</html>

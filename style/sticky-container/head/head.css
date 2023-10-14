@@ -1,0 +1,49 @@
+@import "../head/form-search/form-search.css";
+@import "../head/logo/logo.css";
+@import "../head/menu/menu.css";
+
+.head {
+    background-color: #1b1b1b;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #858585
+}
+
+.head__custom-button {
+    color: var(--link-color);
+    background: transparent;
+}
+
+.head__auth-link {
+    margin-top: 25px;
+    font-family: var(--font-family);
+}
+
+.button-subscription {
+    margin-left: 10px;
+    height: 35px;
+    margin-top: 18px;
+}
+
+@media screen and (max-width:991px) {
+    .head__custom-button {
+        width: 100%;
+        text-align: left;
+        margin: 5px;
+        font-size: 14px;
+        font-family: var(--font-family);
+    }
+
+    .head__auth-link {
+        width: 100%;
+        display: flex;
+        margin: 10px;
+        text-align: center;
+        order: 1;
+        justify-content: center;
+    }
+
+    .button-subscription {
+        margin: auto;
+    }
+}

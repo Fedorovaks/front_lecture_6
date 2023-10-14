@@ -1,0 +1,23 @@
+.footer-logo {
+    width: 20%;
+}
+
+.footer-logo__img {
+    margin-top: 20px;
+}
+
+.footer-logo__text {
+    color: var(--link-color);
+}
+
+@media screen and (max-width:991px) {
+    .footer-logo {
+        width: unset;
+    }
+
+}
+@media screen and (max-width:991px) {
+    .footer-logo {
+        width: 100%;
+    }  
+}

@@ -1,0 +1,21 @@
+.top-banner {
+    background-color: #343434;
+}
+
+.top-banner__text {
+    color: #cdcdcd;
+    text-align: center;
+    padding: 16px;
+    border-bottom: var(--border);
+    font-size: 18px;
+}
+
+.top-banner__link {
+    --link-color:#ae8aff;
+}
+
+@media screen and (max-width:768px){
+    .top-banner{
+        display: none;
+    }    
+}

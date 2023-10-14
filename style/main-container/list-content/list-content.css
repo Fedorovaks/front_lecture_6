@@ -1,0 +1,33 @@
+.list-content {
+    height: 800px;
+    overflow-y: scroll;
+}
+
+.navigation {
+    font-family: var(--font-family);
+}
+
+.navigation__item_strong {
+    color: var(--link-color);
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+.navigation__item {
+    color: var(--link-color);
+    line-height: 2.2;
+    font-size: 16px;
+}
+
+.navigation__item_left-aligned {
+    padding-left: 10px;
+    line-height: 2.2;
+}
+
+@media screen and (max-width:1199px) {
+    .list-content {
+        grid-column-start: 1;
+        padding-left: 10px;
+    }
+}

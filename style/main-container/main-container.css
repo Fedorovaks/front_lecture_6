@@ -1,0 +1,16 @@
+@import "../main-container/list-content/list-content.css";
+@import "../main-container/text-content/text-content.css";
+@import "../main-container/nav-content/nav-content.css";
+
+.main-container {
+    display: flex;
+    background-color: #1b1b1b;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:1199px) {
+    .main-container {
+        display: grid;
+    }
+}

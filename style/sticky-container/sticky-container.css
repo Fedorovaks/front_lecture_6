@@ -1,0 +1,7 @@
+@import "../sticky-container/breadcrumbs-container/breadcrumbs-container.css";
+@import "../sticky-container/head/head.css";
+
+.sticky-container {
+    position: sticky;
+    top: 0;
+}

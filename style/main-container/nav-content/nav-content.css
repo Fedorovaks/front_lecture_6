@@ -1,0 +1,27 @@
+.nav-content {
+    line-height: 2.2;
+    color: var(--link-color);
+    font-family: var(--font-family);
+}
+
+.nav-content__caption {
+    font-size: 18px;
+    margin-top: 60px;
+}
+
+.nav-content__item {
+    border-left: 1px solid;
+}
+
+.nav-content__link {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+@media screen and (max-width:1199px) {
+    .nav-content {
+        grid-column-start: 1;
+        order: -1;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,30 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__item {
+    margin: 20px 30px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1259px) {
+    .menu__item {
+        margin: 20px 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .menu__item {
+        margin: 0;
+        width: 100%;
+        border-top: var(--border);
+        padding: 15px;
+    }
+
+    .menu {
+        margin: 0;
+        order: 3;
+        width: 100%;
+    }
+}

@@ -1,0 +1,26 @@
+.footer-menu {
+    width: 12%;
+}
+
+.footer-menu__caption {
+    color: var(--link-color);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer-menu__item {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:991px) {
+    .footer-menu {
+        width: unset;
+    }
+    .footer-menu__caption {
+        font-size: 16px;
+    }
+    .footer-menu__item {
+        font-size: 14px;
+    }
+}

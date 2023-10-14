@@ -1,0 +1,18 @@
+.description {
+    color: white;
+    line-height: 1.5;
+    text-align: justify;
+    font-family: var(--font-family);
+}
+
+.description__caption {
+    font-size: 38px;
+    padding: 30px 40px;
+    font-weight: 600;
+}
+
+.description__item {
+    font-size: 18px;
+    margin: 30px 40px;
+ 
+}
