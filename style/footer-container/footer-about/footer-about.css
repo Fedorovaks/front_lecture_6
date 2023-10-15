@@ -27,6 +27,7 @@
     color: var(--link-color);
 }
 
+/* Обычно брейкпоинты выносят в отдельные переменные, проще рефакторить и дебажить */
 @media screen and (max-width:991px) {
     .footer-about {
         width: 100%;
