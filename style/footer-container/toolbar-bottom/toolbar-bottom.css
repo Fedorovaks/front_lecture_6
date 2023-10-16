@@ -1,0 +1,31 @@
+.toolbar-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: var(--link-color);
+}
+
+.footer-about {
+    display: flex;
+    border-top: var(--border);
+}
+
+.footer-about__item {
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.footer-about__link {
+    color: var(--link-color);
+}
+
+.footer-copyright__link {
+    color: var(--link-color);
+}
+
+@media screen and (max-width:991px) {
+    .footer-about {
+        flex-wrap: wrap;
+    }
+}

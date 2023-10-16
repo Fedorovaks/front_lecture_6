@@ -9,12 +9,12 @@
     <script defer src="scripts/scripts.js"></script>
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/general.css">
-   
+
 </head>
 
 <body>
     <div class="top-banner">
-        <div class="top-banner__text">Get real-time assistance with your coding queries. Try <a
+        <div class="top-banner__text text_size-medium">Get real-time assistance with your coding queries. Try <a
                 class="top-banner__link link" href="#">AI Help</a> now!</div>
     </div>
     <header class="sticky-container">
@@ -25,7 +25,7 @@
                 </a>
                 <button class="fa fa-bars logo__btn"></button>
             </div>
-            <ul class="menu list">
+            <ul class="menu list text_size-medium">
                 <li class="menu__item"><a class="menu__link link" href="#">References</a></li>
                 <li class="menu__item"><a class="menu__link link" href="#">Guides</a></li>
                 <li class="menu__item"><a class="menu__link link" href="#">Plus</a></li>
@@ -43,15 +43,16 @@
 
             </form>
             <a class="head__auth-link link" href="#">Log in</a>
-            <input class="button-subscription" type="button" value="Sign up for free">
+            <input class="head__button-subscription" type="button" value="Sign up for free">
         </div>
 
-        <div class="breadcrumbs-container">
+        <div class="breadcrumbs">
             <button class="btn-mobile">
-                <img class="btn-mobile__img" src="https://developer.mozilla.org/static/media/sidebar.18421c220ec0a5e690f1.svg">
+                <img class="btn-mobile__img"
+                    src="https://developer.mozilla.org/static/media/sidebar.18421c220ec0a5e690f1.svg">
             </button>
-            <ul class="breadcrumbs list">
-                <li class="breadcrumbs__item">
+            <ul class="breadcrumbs__content list">
+                <li class="breadcrumbs__item text_size-medium">
                     <a class="breadcrumbs__link link" href="#">References</a>
                 </li>
                 <li class="breadcrumbs__item">
@@ -62,8 +63,8 @@
     </header>
 
     <main class="main-container">
-        <aside class="list-content">
-            <ul class="navigation list">
+        <aside class="main-container__list">
+            <ul class="navigation text_size-small list">
                 <li class="navigation__item_strong"><a class="navigation__link link" href="#">HTML</a></li>
                 <li class="navigation__item_strong"><a class="navigation__link link" href="#">Tutorials</a></li>
                 <li class="navigation__item"><a class="navigation__link link" href="#">HTML basics</a></li>
@@ -133,8 +134,8 @@
             </ul>
         </aside>
 
-        <div class="text-content">
-            <div class="description">
+        <div class="main-container__text">
+            <div class="description text_size-medium">
                 <div class="description__caption">HTML: HyperText Markup Language</div>
                 <div class="description__item">
                     HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning
@@ -175,88 +176,100 @@
                         <h3 class="annotation__caption">HTML Introduction</h3>
                         <div class="annotation__item">If you're new to web development, be sure to read our HTML Basics
                             article to learn what HTML is and how to use it.</div>
-                    
+
                     </div>
                     <h3 class="annotation__caption">HTML Tutorials</h3>
-                        <div class="annotation__item">For articles about how to use HTML, as well as tutorials and complete examples, check out our HTML Learning Area.</div>
+                    <div class="annotation__item">For articles about how to use HTML, as well as tutorials and complete
+                        examples, check out our HTML Learning Area.</div>
 
-                        <h3 class="annotation__caption">HTML Reference</h3>
-                        <div class="annotation__item">In our extensive HTML reference section, you'll find the details about every element and attribute in HTML.</div>
+                    <h3 class="annotation__caption">HTML Reference</h3>
+                    <div class="annotation__item">In our extensive HTML reference section, you'll find the details about
+                        every element and attribute in HTML.</div>
 
-                        -----------
+                    -----------
                 </div>
             </div>
 
             <div class="nav-content">
-                <ul class="nav-content__caption list"> In this article
-                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Key resources</a></li>
-                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Beginner's tutorials</a>
+                <ul class="nav-content__caption text_size-medium list"> In this article
+                    <li class="nav-content__item text_size-xsmall"><a href="#" class="nav-content__link link">Key resources</a></li>
+                    <li class="nav-content__item text_size-xsmall"><a href="#" class="nav-content__link link">Beginner's tutorials</a>
                     </li>
-                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Advanced topics</a></li>
-                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Reference</a></li>
-                    <li class="nav-content__item"><a href="#" class="nav-content__link link">Related topics</a></li>
+                    <li class="nav-content__item text_size-xsmall"><a href="#" class="nav-content__link link">Advanced topics</a></li>
+                    <li class="nav-content__item text_size-xsmall"><a href="#" class="nav-content__link link">Reference</a></li>
+                    <li class="nav-content__item text_size-xsmall"><a href="#" class="nav-content__link link">Related topics</a></li>
                 </ul>
             </div>
     </main>
 
-    <footer class="footer-container">
-        <div class="footer-logo">
-            <a class="footer-logo__link link" href="#">
-                <img class="footer-logo__img" src="image/footer-logo.png">
-            </a>
-            <p class="footer-logo__text">Your blueprint for a better internet.</p>
+    <footer class="footer-container ">
+        <div class="site-footer">
+            <div class="site-footer__logo">
+                <a class="site-footer__link link" href="#">
+                    <img class="site-footer__img" src="image/footer-logo.png">
+                </a>
+                <p class="site-footer__text">Your blueprint for a better internet.</p>
+            </div>
+            <ul class="footer-menu list text_size-small">
+                <li class="footer-menu__caption text_size-medium">MDN</li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">About</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Blog</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Careers</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Advertise with us</a></li>
+            </ul>
+
+            <ul class="footer-menu list text_size-small">
+                <li class="footer-menu__caption text_size-medium">Support</li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Product
+                        help</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Report an issue</a></li>
+            </ul>
+
+            <ul class="footer-menu list text_size-small">
+                <li class="footer-menu__caption text_size-medium">Our communities</li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Community</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Forum</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Chat</a></li>
+            </ul>
+
+            <ul class="footer-menu list text_size-small">
+                <li class="footer-menu__caption text_size-medium">Developers</li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Web
+                        Technologies</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Learn Web
+                        Development</a></li>
+                <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Plus</a>
+                </li>
+                <li class="footer-menu__item text_size-small"><a class="footer-menu__link link" href="#">Hacks Blog</a>
+                </li>
+            </ul>
         </div>
+        <div class="toolbar-bottom">
 
-        <ul class="footer-menu list">
-            <li class="footer-menu__caption">MDN</li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">About</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Blog</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Careers</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Advertise with us</a></li>
-        </ul>
+            <ul class="footer-about list">
+                <li class="footer-about__item"><a class="footer-about__link link" href="#"><img
+                            class="footer-about__img" src="image/about.png"></a></li>
+                <li class="footer-about__item"><a class="footer-about__link" href="#">Website Privacy Notice</a></li>
+                <li class="footer-about__item"><a class="footer-about__link" href="#">Cookies</a></li>
+                <li class="footer-about__item"><a class="footer-about__link" href="#">Legal</a></li>
+                <li class="footer-about__item"><a class="footer-about__link" href="#">Community Participation
+                        Guidelines</a>
+                </li>
+            </ul>
 
-        <ul class="footer-menu list">
-            <li class="footer-menu__caption">Support</li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Product help</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Report an issue</a></li>
-        </ul>
-
-        <ul class="footer-menu list">
-            <li class="footer-menu__caption">Our communities</li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Community</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Forum</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Chat</a></li>
-        </ul>
-
-        <ul class="footer-menu list">
-            <li class="footer-menu__caption">Developers</li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Web Technologies</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Learn Web Development</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">MDN Plus</a></li>
-            <li class="footer-menu__item"><a class="footer-menu__link link" href="#">Hacks Blog</a></li>
-        </ul>
-
-        <ul class="footer-about list">
-            <li class="footer-about__item"><a class="footer-about__link link" href="#"><img class="footer-about__img"
-                        src="image/about.png"></a></li>
-            <li class="footer-about__item"><a class="footer-about__link" href="#">Website Privacy Notice</a></li>
-            <li class="footer-about__item"><a class="footer-about__link" href="#">Cookies</a></li>
-            <li class="footer-about__item"><a class="footer-about__link" href="#">Legal</a></li>
-            <li class="footer-about__item"><a class="footer-about__link" href="#">Community Participation
-                    Guidelines</a>
-            </li>
-        </ul>
-
-        <div class="footer-copyright">
-            <p class="footer-copyright__text">Visit Mozilla Corporation’s not-for-profit parent, the <a
-                    class="footer-copyright__link" href="#">Mozilla Foundation</a>.
-                Portions of this content are ©1998–2023 by individual mozilla.org contributors. Content available under
-                a <a class="footer-copyright__link" href="#">Creative Commons license.</a></p>
+            <div class="footer-copyright text_size-small">
+                <p class="footer-copyright__text">Visit Mozilla Corporation’s not-for-profit parent, the <a
+                        class="footer-copyright__link" href="#">Mozilla Foundation</a>.</p>
+                <p class="footer-copyright__text">
+                    Portions of this content are ©1998–2023 by individual mozilla.org contributors. Content available
+                    under
+                    a <a class="footer-copyright__link" href="#">Creative Commons license.</a></p>
+            </div>
         </div>
 
     </footer>
     <div class="popup" id="popup">
-    
+
     </div>
 </body>
 

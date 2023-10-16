@@ -1,32 +1,23 @@
 .logo {
-    width: 20%;
     text-align: end;
-
 }
 
 .logo__img {
     margin-top: 10px;
-
 }
 
 .logo__btn {
     display: none;
 }
 
-@media screen and (max-width:1259px) {
-    .logo {
-        width: unset;
-    }
-
-}
-
 @media screen and (max-width:991px) {
+
+
     .logo {
-        width: 100%;
         text-align: start;
         display: flex;
         justify-content: space-between;
-    
+
     }
 
     .logo__img {
@@ -42,4 +33,3 @@
         margin-top: 10px;
     }
 }
-

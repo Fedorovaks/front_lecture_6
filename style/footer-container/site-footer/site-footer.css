@@ -1,0 +1,32 @@
+.site-footer{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.site-footer__img {
+    margin-top: 20px;
+}
+
+.site-footer__text {
+    color: var(--link-color);
+}
+
+.footer-menu {
+    color: var(--link-color);
+}
+
+.footer-menu__caption {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer-menu__item {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:768px) {
+    .site-footer__logo {
+        width: 100%;
+    }
+}

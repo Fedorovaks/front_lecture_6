@@ -18,19 +18,18 @@
     width: 80px;
     padding: 5px;
     background-color: transparent;
-    border: 1px solid var(--link-color);
+    border: var(--border);
 }
 
 @media screen and (max-width:991px) {
     .form-search {
-        margin: 10px;
-        width: 100%;
         text-align: center;
         order: 2;
-      justify-content: center;
+        justify-content: center;
     }
 
     .form-search__input_transparent {
+        margin: 10px;
         width: 80%;
     }
 }

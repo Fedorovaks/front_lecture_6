@@ -4,7 +4,7 @@ const popup = document.querySelector(".popup");
 const body = document.body;
 
 // Клонируем меню, чтобы задать свои стили для мобильной версии
-const listContent = document.querySelector(".list-content").cloneNode(1);
+const listContent = document.querySelector(".main-container__list").cloneNode(1);
 const navContent = document.querySelector(".nav-content").cloneNode(1);
 
 // При клике на иконку btn вызываем ф-ию btnbHandler
@@ -46,7 +46,7 @@ function closeOnClick() {
 const btnMenu = document.querySelector(".logo__btn");
 const menu = document.querySelector(".menu");
 const headCustomButton = document.querySelector(".head__custom-button");
-const buttonSubscription = document.querySelector(".button-subscription");
+const buttonSubscription = document.querySelector(".head__button-subscription");
 const formSearch = document.querySelector(".form-search");
 const headAuthLink = document.querySelector(".head__auth-link");
 

@@ -6,7 +6,8 @@
     background-color: #1b1b1b;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid #858585
+    border-bottom: var(--border);
+    justify-content: space-between;
 }
 
 .head__custom-button {
@@ -16,22 +17,26 @@
 
 .head__auth-link {
     margin-top: 25px;
-    font-family: var(--font-family);
 }
 
-.button-subscription {
+.head__button-subscription {
     margin-left: 10px;
     height: 35px;
     margin-top: 18px;
 }
 
 @media screen and (max-width:991px) {
+    
+    .head {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
     .head__custom-button {
         width: 100%;
         text-align: left;
         margin: 5px;
         font-size: 14px;
-        font-family: var(--font-family);
     }
 
     .head__auth-link {
@@ -43,7 +48,7 @@
         justify-content: center;
     }
 
-    .button-subscription {
+    .head__button-subscription {
         margin: auto;
     }
 }

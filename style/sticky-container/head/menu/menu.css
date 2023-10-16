@@ -5,7 +5,6 @@
 
 .menu__item {
     margin: 20px 30px;
-    font-size: 18px;
 }
 
 @media screen and (max-width:1259px) {
@@ -25,6 +24,5 @@
     .menu {
         margin: 0;
         order: 3;
-        width: 100%;
     }
 }
