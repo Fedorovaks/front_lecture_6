@@ -5,7 +5,7 @@
 }
 
 .nav-content__caption {
-    font-size: 18px;
+    font-size: 18px; /* Вижу  много мест где задается различный font-size. Оптимальным тут было бы создание класса text и добавить ему модификаторы size-small, size-large и тп. После чего переиспользовать его везде где надо*/
     margin-top: 60px;
 }
 

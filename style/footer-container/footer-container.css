@@ -7,7 +7,7 @@
     background-color: #343434;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: var(--font-family);
+    font-family: var(--font-family); /* Можно присвоить этот стиль корневому элементу. В таком случае не нужно будет прописывать его везде */
 }
 
 @media screen and (max-width:991px) {
